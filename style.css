@@ -1,0 +1,415 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;700;900&display=swap');
+/* font-family: 'Inter', sans-serif; */
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 100vh;
+    /* background-color: red; */
+    
+}
+        .background__color{
+            /* background-color: bisque; */
+            background-color: #F3FCF7;
+            height: 80vh;
+
+
+        }
+        .bg__container{
+            height: 90vh;
+            /* background-color: aqua; */
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            grid-template-rows: repeat(14, 1fr);
+        }
+        .bg__content{
+            /* background-color: rgb(216, 236, 99); */
+            grid-column: 1/ span 6;
+            grid-row: 1/ span 10;
+        }
+        .bg__icons {
+            /* background-color: rgb(241, 139, 55); */
+            grid-column: 1/ span 6;
+            grid-row: 11/ span 2;
+        }
+        .bg__feature__dot__dot {
+            /* background-color: rgb(61, 59, 230); */
+            grid-column: 1/ -1;
+            grid-row: 13/ span 2;
+        }
+        .bg__feature {
+            background-image: url(./images/feature__header.png);
+            background-repeat: no-repeat;
+            background-size: auto 100%;
+            background-position-x: center;
+            background-position-y: center;
+            margin: 0 auto;
+            height: 100%;
+            width: 100%;
+            /* background-color: rgb(227, 129, 236); */
+            grid-column: 7/ span 6;
+            grid-row: 1/ span 12;
+        }
+
+        /* ############## feature dodle section { 1366*666} ################## */
+        
+        
+        
+.feature__rating {
+    position: absolute;
+    left: -7.04%;
+    right: 66.07%;
+    top: 44.94%;
+    bottom: 46.1%;
+}
+.feature__quality {
+    position: absolute;
+    left: 57.65%;
+    right: 0.38%;
+    top: 32.31%;
+    bottom: 57.74%;;
+}
+
+.feature__dot__dot {
+position: absolute;
+left: 65.33%;
+right: 1.42%;
+top: 74.24%;
+bottom: -9.38%;
+height: 35%;
+}
+/* #############  bg icons  #################### */
+.bg__icons img{
+    height: 25px;
+    position: relative;
+    top: 10px;
+}
+/* ######### Background Content ########## */
+.bg__content h1{
+    font-size: 450%;
+    font-weight: bold;
+}
+
+        
+        
+
+/* ############ Media Query ################ */
+@media only screen and (max-width: 991px){
+    .bg__container{
+        display: grid;
+        grid-template-areas: 
+        
+        "c c c c c c c c c c c c"
+        "c c c c c c c c c c c c"
+        "c c c c c c c c c c c c"
+        "c c c c c c c c c c c c"
+        "c c c c c c c c c c c c"
+        "f f f f f f f f f f f f"
+        "f f f f f f f f f f f f"
+        "f f f f f f f f f f f f"
+        "f f f f f f f f f f f f"
+        "f f f f f f f f f f f f"
+        "f f f f f f f f f f f f"
+        "d d d d d d d d d d d d"
+        "i i i i i i i i i i i i"
+        "i i i i i i i i i i i i"
+        
+
+        ;
+        
+    }
+    .bg__content{
+        grid-area: c;
+    }
+    .bg__icons{
+        grid-area: i;
+    }
+    .bg__feature{
+        grid-area: f;
+    }
+    .bg__feature__dot__dot{
+        grid-area: d;
+    }
+        /* ############## feature dodle section {Mobile } ################## */
+        
+        
+        
+        .feature__rating {
+            position: absolute;
+            left: 37.65%;
+            right: 19.2%;
+            top: 88.62%;
+            bottom: 90.88%;
+            height: 40px;
+            z-index: 1;
+            
+        }
+        .feature__quality {
+            left: 37.65%;
+            top: 76.31%;
+            height: 40px;
+            z-index: 1;
+        }
+        
+        .feature__dot__dot {
+            left: 56.33%;
+            right: 1.42%;
+            top: 66.24%;
+            bottom: -9.38%;
+            height: 35%;
+        }
+/* #############  bg icons  #################### */
+.bg__icons{
+    flex-wrap: wrap;
+}
+/* ######### Background Content ########## */
+.bg__content h1{
+    font-size: 300%;
+    font-weight: bold;
+    text-align: center;
+}
+.bg__content h1{
+    text-align: center;
+}
+.bg__content p{
+    text-align: center;
+}
+.bg__content img{
+    align-self: center;
+}
+.background__color{
+    height: auto;
+}
+header{
+    height: auto;
+    /* background-color: red; */
+    
+}
+
+    
+}
+
+
+/* ################################################################################
+######################################## second section ##########################################
+##################################################################################### */
+.frea_1, .frea_2, .frea_3, .frea_4{
+    min-height: 300px;
+    min-width: 100px;
+}
+.art__1 h5{
+    color: #1D1D1F;
+    
+    
+}
+.art__1 p{
+    
+    color: #707070;
+    
+}
+.car{
+    top: 25%;
+}
+/* ################################################################################
+######################################## 3rd section ##########################################
+##################################################################################### */
+.se_1{
+    /* border: 1px solid rgb(221, 13, 13); */
+}
+.se_2{
+    /* border: 1px solid rgb(25, 0, 255); */
+    color: #1D1D1F;
+}
+.se_2_cont_2{
+    width: 70%;
+    /* font-weight: bold; */
+}
+/* .se_2_cont_3{
+    min-width: 50%;
+} */
+@media only screen and (max-width: 992px) {
+    .se_2 h2{
+        text-align: center;
+        
+    } 
+    .se_2 h5{
+        text-align: center;
+        
+    }
+    
+    .se_2{
+        justify-content: space-around;
+        justify-self: center;
+        justify-self: center;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+    }
+}
+/* ################################################################################
+######################################## 4rth section ##########################################
+##################################################################################### */
+.s_1_cont_4 .imgg{
+    width: 150px;
+}
+.s_1_cont_3 h3{
+    color: #06c167;
+}
+.s_1_cont_3 p{ 
+    color: #1D1D1F;
+}
+.s_1_cont_3{
+    text-align: center;
+}
+@media only screen and (max-width: 991px) {
+    .se_2 h2{
+        text-align: center;
+        
+    } 
+    .se_2 h5{
+        text-align: center;
+        
+    }
+    .s_1{
+        text-align: center;
+        justify-content: space-around;
+        justify-self: center;
+        justify-self: center;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+        order: 2;
+    }
+    .se_2{
+        justify-content: space-around;
+        justify-self: center;
+        justify-self: center;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+        order: 1;
+    }
+    .s_1_cont_3{
+        text-align: center;
+        justify-content: space-around;
+        justify-self: center;
+        justify-self: center;
+        justify-items: center;
+        align-items: center;
+        align-content: center
+
+    }
+    
+    
+}
+/* ################################################################################
+######################################## 5th section ##########################################
+##################################################################################### */
+.row {
+    --bs-gutter-x: none;
+}
+.feature__section{
+    /* border: 2px solid red; */
+    /* height: 700px; */
+}
+.product__1, .product__2, .product__3, .product__4{
+    height: 510px;
+    max-width: 300px;
+}
+.img__sectionn ,.content__sectionn{
+    height: 50%;
+    max-width: 100%;
+    border: 1px solid #06C167;
+}
+.img__sectionn img{
+    height: 100%;
+    width: 100%;
+}
+.content__sectionn img{
+    height: 50px;
+    width: 100px;
+}
+/* ################################################################################
+######################################## 6th section ##########################################
+##################################################################################### */
+.arti__1__fruit__1{
+    border: 1px solid rgb(235, 11, 11);
+    height: 400px;
+    max-width: 250px;
+}
+.arti__1__fruit__2{
+    border: 1px solid rgb(179, 255, 0);
+    height: 400px;
+    max-width: 250px;
+}
+.arti__1__fruit__3{
+    border: 1px solid rgb(12, 173, 79);
+    height: 400px;
+    max-width: 250px;
+}
+.arti__1__fruit__4{
+    border: 1px solid rgb(43, 9, 134);
+    height: 400px;
+    max-width: 250px;
+}
+.arti__1 > h1{
+    font-weight: bold;
+    
+}
+.arti__1 > h6{
+    font-weight: 400;
+}
+/* .comm{
+    max-width: 10%;
+} */
+/* .arti__1__fruit__1, .arti__1__fruit__2, .arti__1__fruit__3, .arti__1__fruit__4{
+    margin-top: 10px;
+} */
+@media only screen and (max-width: 992px) {
+    .arti__1 > h6, h1{
+        text-align: center;
+        
+    } 
+}
+@media only screen and (min-width: 1200px) {
+    .arti__1{
+        left: 5%;
+        
+    } 
+} 
+
+
+/* ################################################################################
+######################################## Footer section ##########################################
+##################################################################################### */
+/* ########## footer__section__1 ########## */
+.footer__section__1__content img{
+    height: 30px;
+}
+.footer__section__1__content{
+    
+    width: 70%;
+    top: 30%;
+    left: 15%;
+    text-align: center;
+    
+    
+}
+.footer__section__1__content h2{
+    font-size:4vw;
+
+}
+/* .footer__section__1{
+    border: 2px solid red;
+} */
+.footer__section__1 .bg img{
+    min-height: 100px;
+}
